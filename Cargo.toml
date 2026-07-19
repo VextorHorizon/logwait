@@ -1,0 +1,18 @@
+[package]
+name = "logwait"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Watch a log file another process writes, wait for a pattern, exit with a meaningful code."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/VextorHorizon/logwait"
+keywords = ["log", "watch", "cli", "polling", "automation"]
+categories = ["command-line-utilities", "filesystem"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+
+[dev-dependencies]
+tempfile = "3"
+assert_cmd = "2"
+predicates = "3"

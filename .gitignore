@@ -1,0 +1,9 @@
+/target
+
+# Build input, not repository content (see PROJECT_CONTEXT.md).
+PROJECT_CONTEXT.md
+logwait_v0.1_build_prompt.md
+report.md
+
+# Kept local for now; published in a later release.
+docs/roadmap/
